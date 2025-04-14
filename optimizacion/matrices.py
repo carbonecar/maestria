@@ -14,3 +14,5 @@ A_pinv = np.linalg.pinv(A)
 
 print(A_pinv)
 print(np.matmul(A, A_pinv))
+
+
