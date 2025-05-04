@@ -2,6 +2,15 @@
 # RMSProp: usa tanto la media móvil del gradiente (como momentum) 
 # como la media móvil del cuadrado del gradiente (como RMSProp).
 
+
+#📌 ¿Qué hace Adam?
+#Usa la idea de momentum: suaviza la dirección de actualización con la media móvil del gradiente.
+
+#Usa la idea de RMSProp: adapta el learning rate por dimensión con base en el segundo momento.
+
+#Corrige los sesgos de los momentos para los primeros pasos.
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
